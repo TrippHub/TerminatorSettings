@@ -1,0 +1,2 @@
+# TerminatorSettings
+Settings for Terminator
