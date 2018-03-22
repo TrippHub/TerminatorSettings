@@ -1,0 +1,53 @@
+[global_config]
+  focus = system
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = dfb05a87-57e5-4e26-9260-861ac2787e83
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 26:23
+      size = 1292, 604
+      title = tcashel@tripp-linux:~
+      type = Window
+    [[[terminal1]]]
+      order = 0
+      parent = child0
+      profile = default
+      type = Terminal
+      uuid = dfb05a87-57e5-4e26-9260-861ac2787e83
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#2e3436"
+    cursor_color = "#aaaaaa"
+    foreground_color = "#d3d7cf"
+    scrollback_infinite = True
+  [[remote1]]
+    cursor_color = "#aaaaaa"
+    foreground_color = "#e53c00"
+    scrollback_infinite = True
+  [[test]]
+    cursor_color = "#aaaaaa"
+    scrollback_infinite = True
+    use_theme_colors = True
+  [[vm-cent7]]
+    background_color = "#300a24"
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ffffff"
+    scrollback_infinite = True
+  [[vm-fedora]]
+    background_color = "#002b36"
+    cursor_color = "#aaaaaa"
+    foreground_color = "#d3d7cf"
+    scrollback_infinite = True
+  [[vm-spotmarket]]
+    background_color = "#2e3436"
+    cursor_color = "#aaaaaa"
+    foreground_color = "#00ff00"
+    scrollback_infinite = True
+    scrollback_lines = 5000
